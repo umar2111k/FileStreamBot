@@ -10,7 +10,7 @@ class Telegram:
     OWNER_ID = int(env.get('OWNER_ID', '6170050819'))
     WORKERS = int(env.get("WORKERS", "10"))  # 6 workers = 6 commands at once
     DATABASE_URL = str(env.get('mongodb+srv://yefixi9254:hu8ldGaA0ledNFiO@cluster0.af4er1c.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0'))
-    UPDATES_CHANNEL = str(env.get('UPDATES_CHANNEL', "-1002220436117"))
+    UPDATES_CHANNEL = str(env.get('UPDATES_CHANNEL', "studyocean1"))
     SESSION_NAME = str(env.get('SESSION_NAME', 'FileStream'))
     FORCE_SUB_ID = env.get('FORCE_SUB_ID', None)
     FORCE_SUB = env.get('FORCE_UPDATES_CHANNEL', True)
